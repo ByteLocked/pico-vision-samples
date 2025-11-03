@@ -285,7 +285,7 @@ def draw_board():
     display.set_pen(text_pen)
     display.text(f"Score: {score}", BOARD_X + BOARD_W + 16, BOARD_Y + 10, -1, 2)
     display.text(f"Level: {level}", BOARD_X + BOARD_W + 16, BOARD_Y + 40, -1, 2)
-    display.text("B/L  X/R  Y=Rot  A=Drop", BOARD_X, BOARD_Y + BOARD_H + 8, -1, 1)
+    display.text("X/R  Y=Rot  A=Drop", BOARD_X, BOARD_Y + BOARD_H + 8, -1, 1)
 
     display.update()
 
