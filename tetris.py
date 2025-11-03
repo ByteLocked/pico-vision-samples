@@ -1,6 +1,4 @@
 # Tetris for PicoVision (MicroPython)
-# Buttons (PicoVision helpers):
-#   B = left, X = right, Y = rotate, A = soft drop, A+Y = hard drop
 import time, random
 from picovision import PicoVision, PEN_RGB555
 from pimoroni import Button
